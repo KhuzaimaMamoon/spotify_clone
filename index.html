@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+          integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer"/>
+    <title>Spotify-Web player:Music for everyone</title>
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet"
+          href="style.css">
+    <link rel="icon"
+          href="./images/Spotify_icon.svg.png">
+</head>
+<body>
+<div class="main">
+    <div class="sidebar">
+        <div class="nav">
+            <div class="nav-option"
+                 style="opacity: 1">
+                <i class="fa-solid fa-house"></i>
+                <a href="#">Home</a>
+            </div>
+            <div class="nav-option">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="#">Search</a>
+            </div>
+        </div>
+        <div class="library">
+            <div class="options">
+                <div class="lib-option nav-option">
+                    <img src="./images/library_icon.png">
+                    <a href="#">Your Library</a>
+                </div>
+                <div class="icons">
+                    <i class="fa-solid fa-plus"></i>
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+            <div class="lib-box">
+                <div class="box">
+                    <p class="box-p1">Create your first playlist</p>
+                    <p class="box-p2">It's easy, we'll help you</p>
+                    <button class="badge">Create playlist</button>
+                </div>
+                <div class="box"
+                     style="height: 10rem">
+                    <p class="box-p1">Let's find some podcast to follow</p>
+                    <p class="box-p2">We'll keep you updated on new episodes</p>
+                    <button class="badge">Browse podcasts</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="main-content">
+        <div class="navbar">
+            <div class="back-forward">
+                <img src="./images/forward_icon.png">
+                <img src="./images/backward_icon.png">
+            </div>
+            <div class="premium-btn">
+                <button class="explore-btn"
+                        id="explore">Explore premium
+                </button>
+                <button class="explore-btn"
+                        style="background-color: black;color: white">
+                    <i class="fa-regular fa-circle-down"></i>
+                    Install
+                </button>
+                <div class="account">
+                    <i class="fa-regular fa-user"></i>
+                </div>
+            </div>
+        </div>
+        <h2>Recently played</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="./images/card1img.jpeg"
+                     class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Your daily updates of the most played...</p>
+            </div>
+        </div>
+        <h2>Trending now near you</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="./images/card2img.jpeg"
+                     class="card-img">
+                <p class="card-title">Mahiye Jinna Sohna </p>
+                <p class="card-info">Sung by Darshan Raval, this song likely features...</p>
+            </div>
+            <div class="card">
+                <img src="./images/card3img.jpeg"
+                     class="card-img">
+                <p class="card-title">Mere Paas Tum Ho</p>
+                <p class="card-info">A remix of a popular emotional track, offering a...</p>
+            </div>
+            <div class="card">
+                <img src="./images/card4img.jpeg"
+                     class="card-img">
+                <p class="card-title">Naa Ready </p>
+                <p class="card-info">A song likely from the movie Leo, featuring energetic...</p>
+            </div>
+            <div class="card">
+                <img src="./images/card7img.jpeg"
+                     class="card-img">
+                <p class="card-title">NAina </p>
+                <p class="card-info">“Naina” is a soulful track that beautifully captures the pain...</p>
+            </div>
+            <div class="card">
+                <img src="./images/card8img.jpeg"
+                     class="card-img">
+                <p class="card-title">Saamnay</p>
+                <p class="card-info">s an emotional track that reflects the tension and unspoken feelings...</p>
+            </div>
+        </div>
+        <h2>Top Artists</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="./images/pritam.jpeg"
+                     class="card-img">
+                <p class="card-title">Pritam</p>
+                <p class="card-info">A popular Bollywood music composer...</p>
+            </div>
+            <div class="card">
+                <img src="./images/arjeet.jpeg"
+                     class="card-img">
+                <p class="card-title">Arjeet Singh</p>
+                <p class="card-info">A celebrated playback singer famous for his...</p>
+            </div>
+            <div class="card">
+                <img src="./images/atif.jpeg"
+                     class="card-img">
+                <p class="card-title">Atif Aslam</p>
+                <p class="card-info">A renowned singer with a distinct voice...</p>
+            </div>
+        </div>
+        <h2>Featured charts</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="./images/card5img.jpeg"
+                     class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Weekly global music chart updates from Spotify...</p>
+            </div>
+            <div class="card">
+                <img src="./images/card6img.jpeg"
+                     class="card-img">
+                <p class="card-title">Top 50 - India</p>
+                <p class="card-info">Weekly chart updates featuring India’s most played songs...</p>
+            </div>
+            <div class="card">
+                <img src="./images/card1img.jpeg"
+                     class="card-img">
+                <p class="card-title">Top 50 - Global</p>
+                <p class="card-info">Daily updates of the top 50 globally popular songs on Spotify...</p>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="line"></div>
+        </div>
+    </div>
+    <div class="music-player">
+        <div class="album">
+            <div class="information">
+                <img src="./images/card2img.jpeg">
+                <div class="singer-info">
+                    <h3>Gumnam</h3>
+                    <p>Arjeet singh</p>
+                </div>
+            </div>
+            <div class="liked-icons">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-plus"></i>
+            </div>
+        </div>
+        <div class="player">
+            <div class="play-control">
+                <img src="./images/player_icon1.png "
+                     class="player-control-icon">
+                <img src="./images/player_icon2.png "
+                     class="player-control-icon">
+                <img src="./images/player_icon3.png "
+                     class="player-control-icon"
+                     style="height: 2rem;opacity: 1">
+                <img src="./images/player_icon4.png "
+                     class="player-control-icon">
+                <img src="./images/player_icon5.png "
+                     class="player-control-icon">
+            </div>
+            <div class="playback-bar">
+                <span class="curr-time">00:00</span>
+                <input type="range"
+                       min="0"
+                       max="100"
+                       value="0"
+                       class="progress-bar">
+                <span class="total-time">03:30</span>
+            </div>
+        </div>
+        <div class="controls">
+            <i class="fas fa-external-link-square-alt"></i>
+            <i class="fas fa-link"></i>
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-closed-captioning"></i>
+            <i class="fas fa-volume-up"></i>
+            <input type="range"
+                   min="0"
+                   max="100"
+                   class="volume-control progress-bar"
+                   style="width: 10rem">
+        </div>
+    </div>
+</div>
+</body>
+</html>
